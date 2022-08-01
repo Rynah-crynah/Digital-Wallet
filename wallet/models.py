@@ -20,7 +20,7 @@ class Account(models.Model):
 class Wallet(models.Model):
     pin=models.SmallIntegerField()
     date_created=models.DateTimeField()
-    amount = models.IntegerField()   
+    amount = models.IntegerField() 
 
 class Transaction(models.Model):
     transaction_amount = models.IntegerField()
