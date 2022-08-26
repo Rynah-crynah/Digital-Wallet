@@ -81,9 +81,9 @@ DATABASES = {
     }
 }
 
-DATABASE = {
+DATABASES = {
     "default":{
-        "ENGINE": "django.db.backends.postgres",
+        "ENGINE": "django.db.backends.postgresql",
         "NAME": "myproject",
         "USER": "myprojectuser",
         "PASSWORD": "student",
